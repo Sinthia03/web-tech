@@ -31,7 +31,7 @@
  
 
 <tr>
-<td>Enter your firstname:</td>
+<td>Firstname:</td>
 </tr>
 <tr>
 <td><input type="text"></td>
