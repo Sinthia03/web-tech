@@ -25,7 +25,7 @@ Experience convenient online consultations<br></p>
 <p style="text-align:center;color :black;family:Georgia;'Times New Roman';color:black;font-size:20px ">Here we discuss about the Health Connect features</p>
 
  
-<!--<table>
+<table>
 
 <tr>
 <td>Enter your semester:</td>
@@ -98,6 +98,6 @@ Experience convenient online consultations<br></p>
 <input type="submit">
 <input type="reset"><br>
 
--->
+   
 </body>  
 </html>
