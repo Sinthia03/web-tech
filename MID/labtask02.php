@@ -23,6 +23,20 @@
 <body>
     
 
+<center>
+ <div>
+    
+<table>
+ <h1 style ="color:red;font-size:30px"> Participant Registration Information</h1>
+ <hr color = "Red">
+ 
+
+<tr>
+<td>FullName:</td>
+</tr>
+<tr>
+<td><input type="text"></td>
+</tr>
 
 
 
