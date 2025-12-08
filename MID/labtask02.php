@@ -187,12 +187,12 @@ function handleSubmit() {
     activityList.appendChild(newDiv);
 
     document.getElementById("activityInput").value = "";
-}
+
 
 function removeActivity(button) {
     button.parentElement.remove();
 }
- 
+
 </Script>
 </body>
 </html>
