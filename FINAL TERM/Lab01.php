@@ -8,6 +8,7 @@
 <center>
     
     <h1 style="color:black;">Car Details</h1>
+    <h2> welcome</h2>
    <p>Show for more car details</p>
     <?php
     
