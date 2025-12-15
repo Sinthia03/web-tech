@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <center>
     <title>PHP Validation Form</title>
 </head>
 
@@ -122,6 +123,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && empty($nameError) && empty($emailErr
     echo "  BloodGroup: $bloodgroup <br>";
 }
 ?>
-
+</center>
 </body>
 </html>
