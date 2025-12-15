@@ -10,6 +10,7 @@
   
     <center>
          <h1>Login Now</h1>
+         </center>
         <form method = "post" action ="">
             <label>Enter your name:</label>
    <input type ="text" id ="name "  name ="name">
@@ -17,12 +18,13 @@
    <label>Enter your password:</label>
     <input type ="text" id ="password"  name ="password">
     <br><br>
+    
  <input type = "submit" name ="submit" value ="Login">
 <br><br>
 <a href ="#">Forgot Password ?</a>
 </form>
 
-</center>
+
 
 </div>
 </body>
