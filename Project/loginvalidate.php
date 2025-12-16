@@ -1,10 +1,12 @@
 <?php
-$name = $password = "";
-$nameError = $passwordError="";
+$name = $password = $loginMessage = "";
+$nameError = $passwordError= "";
 
 function test_input($data)
 {
     $data = trim($data);
+    $data = stripslashes($data);
+    $data = htmlspecialchars($data);
     return $data;
 }
 
@@ -15,18 +17,27 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
         $nameError = "Name is required";
     } else {
         $name = test_input($_POST["name"]);
-        if (!preg_match("/^[A-Za-z][A-Za-z.\- ]*$/", $name)) {
-            $nameError = "Invalid name format";
-        } elseif (strlen($name) < 2) {
-            $nameError = "At least two words required";
+        
         }
-    }
+
 
 //password validation
+if(empty($_POST["password"]))
+{
+$passwordError ="Password is required";
 
-
-
-
+}
+else{
+    $password =test_input($_POST["password"]);
+    
+}
+if(empty($nameError)&& empty($passwordError)){
+    echo "<h2> Login Successful </h2>";
+    echo "<p>Welcome,". htmlspecialchars($name)."</p>";
+}
+else {
+    include 'Login.php';
+}
 
 
 

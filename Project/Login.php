@@ -13,16 +13,29 @@
          <h1>Login Now</h1>
          </center>
         <form method = "post" action ="loginvalidate.php">
+            <div>
             <label>Enter your name:</label>
-   <input type ="text" id ="name "  name ="name">
-   <br><br>
-   <label>Enter your password:</label>
-    <input type ="text" id ="password"  name ="password">
+   <input type ="text"  name ="name" value="<?php echo $name; ?>">
+   <?php echo $nameError; ?>
     <br><br>
-    
+</div>
+
+ <div>
+   <label>Enter your password:</label>
+    <input type ="text" name="password"  value= "">
+    <?php echo $passwordError; ?>
+    <br><br>
+</div>
+    <center>
+ <div>
  <input type = "submit" name ="submit" value ="Login">
 <br><br>
+</div>
+
+ <div>
 <a href ="#">Forgot Password ?</a>
+</div>
+</center>
 </form>
 
 
