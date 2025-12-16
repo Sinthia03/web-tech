@@ -1,0 +1,23 @@
+body {
+    background-color: rosybrown;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+}
+
+label {
+    display: inline-block;
+    width: 160px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 200px;
+}
