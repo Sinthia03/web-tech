@@ -23,7 +23,7 @@
  <div>
    <label>Enter your password:</label>
     <input type ="text" name="password"  value= "">
-    <?php echo $passwordError; ?>
+   
     <br><br>
 </div>
     <center>
