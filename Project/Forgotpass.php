@@ -14,24 +14,25 @@
    <p> Enter a new password to change your password  </p>
    
  <label>New Password:</label>
-<input type ="text"  name="newpassword"  value="" placeholder="Must be 8 character long"/>
+<input type ="text"  name="newpassword"   placeholder="Must be 8 character long"/>
 
 <br><br>
 <br><br>
 
 
 <label>Confirm New Password:</label>
-<input type ="text" name="confirmpassword" id="confirmpassword" />
+<input type ="text" name="confirmpassword"  />
+
 <br><br>
 <br><br>
 
 <button type ="button"  onclick="window.location.href='Login.php';">Back </button>
-<button type ="submit">Submit </button>
+<button type ="submit">Submit</button>
+<br><br>
 
 
 
-
-
+ 
 
 </form>
 

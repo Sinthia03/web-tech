@@ -61,17 +61,13 @@ $successmessage = "Password Changed";
 
 
 }
-<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST" && empty($nameError) && empty($emailError) && empty($dateofbirthError))
 {
+    echo "<h2>Your Input:</h2>";
+    echo "New password: $newpassword <br>";
+    echo "Confirm Password:  $confirmpassword <br>";
     
-    echo "Name: $ <br>";
-    echo "Email: $email <br>";
-    echo "DOB: $dateofbirth <br>";
-    echo "Gender: $gender <br>";
-    echo "  BloodGroup: $bloodgroup <br>";
 }
-?>
 
 
 

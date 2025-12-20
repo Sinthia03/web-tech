@@ -43,7 +43,7 @@ label {
     display: inline-block;
     width: 140px;
     font-weight: bold;
-    vertical-align: top;
+    
 }
 input[type="text"],
 input[type="text"] {
@@ -51,14 +51,4 @@ input[type="text"] {
     padding:8px;
 
     
-}
-input[type="submit"] {
-width: 150px;
-padding:10px;
-background-color:rgb(45, 20, 175);
-color:white;
-border: none;
-border-radius: 20px;
-font-weight: bold;
-
 }
