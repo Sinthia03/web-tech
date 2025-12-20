@@ -15,7 +15,7 @@
         <form method = "post" action ="loginvalidate.php">
             <div>
             <label>Enter your name:</label>
-   <input type ="text"  name ="name" value="<?php echo $name; ?>">
+   <input type ="text"  name="name" value="<?php echo $name; ?>">
    <?php echo $nameError; ?>
     <br><br>
 </div>
@@ -28,7 +28,7 @@
 </div>
     <center>
  <div>
- <input type = "submit" name ="submit" value ="Login">
+ <input type ="submit" name="submit" value ="Login">
 <br><br>
 </div>
 
