@@ -46,7 +46,7 @@ label {
     vertical-align: top;
 }
 input[type="text"],
-input[type="password"] {
+input[type="text"] {
     width: 200px;
     padding:8px;
 
