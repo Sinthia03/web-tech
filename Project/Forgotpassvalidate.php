@@ -46,7 +46,7 @@ if(empty($_POST["confirmpassword"])){
 }
 
 else {
-$confirmpassword = test_input($_POST["$confirmpassword"]);
+$confirmpassword = test_input($_POST["confirmpassword"]);
 if($newpassword!== $confirmpassword){
     $confirmpasswordError = "Passwords do not match";
 }
@@ -61,7 +61,17 @@ $successmessage = "Password Changed";
 
 
 }
-
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST" && empty($nameError) && empty($emailError) && empty($dateofbirthError))
+{
+    
+    echo "Name: $ <br>";
+    echo "Email: $email <br>";
+    echo "DOB: $dateofbirth <br>";
+    echo "Gender: $gender <br>";
+    echo "  BloodGroup: $bloodgroup <br>";
+}
+?>
 
 
 

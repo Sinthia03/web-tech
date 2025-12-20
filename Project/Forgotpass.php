@@ -14,7 +14,8 @@
    <p> Enter a new password to change your password  </p>
    
  <label>New Password:</label>
-<input type ="text"  name="newpassword" id="newpassword" placeholder="Must be 8 character long"/>
+<input type ="text"  name="newpassword"  value="" placeholder="Must be 8 character long"/>
+
 <br><br>
 <br><br>
 
@@ -35,6 +36,7 @@
 </form>
 
 </center>
+
 
    
 
