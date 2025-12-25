@@ -1,21 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Dashboard - HotelESS</title>
+    <title>User Dashboard </title>
    
     <link rel="stylesheet" href="userstyle.css">
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="logo">HotelESS</div>
-        <button class="logout-btn">Logout</button>
-    </header>
-
     <main class="main-content">
-        <h1>Welcome Back 👋</h1>
+        <h1>Welcome Back </h1>
 
         <div class="dashboard-grid">
             
@@ -29,10 +24,7 @@
                     <span class="stat-label">Upcoming Check-in</span>
                     <span class="stat-value">Dec 28, 2025</span>
                 </div>
-                <div class="stat-item">
-                    <span class="stat-label">Loyalty Points</span>
-                    <span class="stat-value">450 pts</span>
-                </div>
+                
             </section>
 
             <section class="card">
@@ -44,9 +36,13 @@
                     <button class="btn">View Activity Log</button>
                 </div>
             </section>
+            
 
         </div>
     </main>
+    <div>
+        <button class ="btn">Logout </button>
+</div>
 
 </body>
 </html>
