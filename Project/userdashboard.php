@@ -40,8 +40,8 @@
 
         </div>
     </main>
-    <div>
-        <button class ="btn">Logout </button>
+    <div class ="logout-container">
+        <button class ="logout-btn">Logout </button>
 </div>
 
 </body>
