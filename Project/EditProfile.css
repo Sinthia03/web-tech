@@ -86,10 +86,10 @@ input [type="submit"]: hover{
 
     background: transparent;
     border:1.5px solid #8e2a10;
-    color: #f1c40f; 
+    color: saddlebrown;  
 }
 .secondary-btn:{
-background-color: #b35809;
+background-color: saddlebrown;
  transform: translate(-2px);
 }
 
