@@ -1,27 +1,41 @@
+*{
+margin:0;
+padding:o;
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+
+}
+
+
 body {
     background-color: rosybrown;
     font-family : Arial, sans-serif;
     margin:0;
     padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
     color: saddlebrown;
     text-align: center;
     font-weight: bold;
+    margin-bottom:30px ;
 }
 
-form {
+form, .card{
     height: 250px;
     width: 300px;
     margin:20px auto;
     background:white;
     padding:15px;
-
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
 }
 
 
-label {
+label, .stat-label{
     display: inline-block;
     width: 140px;
     font-weight: bold;
@@ -29,13 +43,14 @@ label {
 }
 
 input[type="text"],
-input[type="password"] {
+input[type="password"] ,
+.stat-value {
     width: 200px;
     padding:8px;
 
     
 }
-input[type="submit"] {
+input[type="submit"], .btn {
 width: 150px;
 padding:10px;
 background-color:rgb(45, 20, 175);
@@ -43,5 +58,8 @@ color:white;
 border: none;
 border-radius: 20px;
 font-weight: bold;
+cursor: pointer;
+text-align: center;
+transition: transform 0.2s,background 0,3s;
 
 }
