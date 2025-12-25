@@ -19,7 +19,7 @@ width: 100%;
 max-width: 400px;
 padding: 30px;
 border-radius: 15px;
-background: rgba(255,255,255,0.15)
+background: rgba(106, 42, 5, 0.15)
 backdrop-filter: blur(12px);
 box-shadow: 0 8px 25px rgba(0,0,0,0.3);
 text-align:center;
@@ -30,7 +30,7 @@ color:black;
 .profile-card h1{
  margin-bottom: 15px;
  font-size: 26px;
- color:saddlebrown;
+ color:rgb(118, 53, 10);
 }
 
 .avatar{
@@ -38,7 +38,7 @@ width:130px;
 height:130px;
 border-radius: 50%;
 object-fit: cover;
-border : 3px solid saddlebrown;
+border : 3px solid rgb(95, 45, 9);
 margin-bottom: 15px;
 
 
