@@ -72,7 +72,28 @@ padding:12px;
 background: #8e2a10;
 border: none;
 border-radius: 8px;
+color:#fff;
+font-size: 15px;
+font-weight: 600;
+cursor: pointer;
+}
 
 
+.profile-actions button:hover{
+
+
+    background: #b35809;
+    transform: translate(-2px);
+}
+
+.secondary-btn{
+    background: transparent;
+    border :2px solid black;
+    color:#8e2a10;
+}
+.secondary-btn : hover{
+
+background: #8e2a10;
+color:#fff;
 
 }
