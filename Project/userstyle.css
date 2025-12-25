@@ -93,6 +93,29 @@ h1 {
     gap: 12px;
 }
 
+
+
+
+
+.logout-container{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+
+}
+
+.logout-btn{
+    width: 200px;
+    padding: 12px;
+    border:none;
+    border-radius: 8px;
+    background:#b35809;
+    color:white;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
 .btn {
     width: 100%;
     padding: 12px;
@@ -105,14 +128,9 @@ h1 {
     cursor: pointer;
    
 }
-
 .btn:hover {
     background: #b35809;
     transform: translateY(-2px);
-}
-
-.logout{
-    
 }
 
 @media (max-width: 768px) {
