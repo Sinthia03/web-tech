@@ -39,5 +39,9 @@
 <p class = "err" id = "Error">
 </p>
 </form>
+
+
+<script src ="EditProfile.js"></script>
+
 </body>
 </html>
