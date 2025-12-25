@@ -1,4 +1,4 @@
-/* CSS STYLES */
+
 * { 
     margin: 0; 
     padding: 0; 
@@ -8,8 +8,8 @@
 
 body {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-                url("../img/hotel8.jpg") no-repeat center center/cover;
-    background-color: #2c3e50; /* Fallback color */
+               
+    background-color: rosybrown;
     color: #fff;
     min-height: 100vh;
     display: flex;
@@ -27,26 +27,20 @@ body {
     box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
 }
 
-.navbar .logo {
-    font-size: 24px;
-    font-weight: 600;
-    color: #f1c40f;
-}
+
 
 .navbar .logout-btn {
-    background: #e74c3c;
+    background: #4116ce;
     border: none;
     padding: 8px 20px;
     border-radius: 5px;
     color: #fff;
     cursor: pointer;
     font-weight: 600;
-    transition: 0.3s;
+    text-align: center;
 }
 
-.navbar .logout-btn:hover {
-    background: #c0392b;
-}
+
 
 /* Main Layout */
 .main-content {
@@ -60,7 +54,7 @@ body {
 h1 {
     margin-bottom: 30px;
     font-size: 32px;
-    color: #f1c40f;
+    color:  saddlebrown;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 }
 
@@ -103,7 +97,7 @@ h1 {
 .stat-value {
     font-size: 24px;
     font-weight: 700;
-    color: #1abc9c;
+    color: #b1590c;
 }
 
 /* Button Group */
@@ -118,16 +112,16 @@ h1 {
     padding: 12px;
     border: none;
     border-radius: 8px;
-    background: #1abc9c;
+    background: #8e2a10;
     color: white;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
-    transition: transform 0.2s, background 0.3s;
+   
 }
 
 .btn:hover {
-    background: #16a085;
+    background: #b35809;
     transform: translateY(-2px);
 }
 
