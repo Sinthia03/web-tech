@@ -23,7 +23,7 @@ background: rgba(103, 60, 35, 0.15)
 backdrop-filter: blur(12px);
 box-shadow: 0 8px 25px rgba(0,0,0,0.3);
 text-align:center;
-color:black;
+color:#fff;
 
 }
 
@@ -41,8 +41,37 @@ object-fit: cover;
 border : 3px solid rgb(95, 45, 9);
 margin-bottom: 15px;
 
+}
+
+.meta{
 
 
+    margin; 8px 0;
+    font-size: 15px;
+    color: #000;;
+
+}
+.meta strong{
+
+color:saddlebrown;
+
+}
+
+.profile-actions{
+
+    margin-top: 20px;
+    display:flex;
+    flex-direction: column;
+    gap:12px;
+
+}
+
+.profile-actions button{
+
+padding:12px;
+background: #8e2a10;
+border: none;
+border-radius: 8px;
 
 
 
