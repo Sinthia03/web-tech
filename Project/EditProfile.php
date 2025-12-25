@@ -17,6 +17,23 @@
 <p class="err" id ="nameError">
 </p>
 
+<label>Email:</label>
+<input type ="email" name ="email" id="editemail" value="Sinthia@gmai.com">
+<p class="err" id ="EmailError">
+</p>
+
+
+<label> Update Profile Picture</label>
+<input type ="file" name ="avatar" id="editavatar" accept="image/*">
+<p class="err" id ="avatarError">
+</p>
+
+
+<input type = "submit" value ="Update Profile">
+<input type ="button" value ="Back to Dashboard" onclick="window.location.href='userdashboard.php'" class ="secondary-btn">
     
+
+
+<p>
 </body>
 </html>
