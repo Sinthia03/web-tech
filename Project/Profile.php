@@ -14,11 +14,13 @@
 <div class ="profile-actions">
     <button>Edit Profile</button>
     <button>Update Password</button><br><br>
-    <button class ="secondary-btn" onclick ="window.location.href='userdashboard.php'"> Back to Dashboard</button>
+    
 </div>
 
+<div class ="back-dashboard-container".>
+    <button class ="back-dashboard-btn" onclick ="window.location.href='userdashboard.php'"> Back to Dashboard</button>
 
-
+</div>
 </div>
     
 </body>
