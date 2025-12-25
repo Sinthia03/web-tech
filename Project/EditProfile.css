@@ -61,11 +61,11 @@ border: none;
 border-radius: 8px;
 background: rgba(255,255,255,0.7);
  font-size: 14px;
- color:beige;
+ color:rgb(161, 161, 153);
 }
 
-input [type="submit"],
-input [type="button"] {
+input[type="submit"],
+input[type="button"] {
 
     width:100%;
     margin-top:15px;
@@ -77,9 +77,9 @@ input [type="button"] {
 
 }
 
-input [type="submit"]: hover{
+input[type="submit"]:hover{
 
-    background: #161616;
+    background: saddlebrown ;
 }
 
 .secondary-btn{
@@ -88,8 +88,9 @@ input [type="submit"]: hover{
     border:1.5px solid #8e2a10;
     color: saddlebrown;  
 }
-.secondary-btn:{
+.secondary-btn:hover {
 background-color: saddlebrown;
+color: #fff;
  transform: translate(-2px);
 }
 
