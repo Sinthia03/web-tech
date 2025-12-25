@@ -34,6 +34,10 @@
     
 
 
-<p>
+<p class = "ok" id = "Success">
+</p>
+<p class = "err" id = "Error">
+</p>
+</form>
 </body>
 </html>
