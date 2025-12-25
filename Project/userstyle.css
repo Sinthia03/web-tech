@@ -10,7 +10,7 @@ body {
     background: rosybrown;
                
     
- color: #fff;
+    color: #fff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -105,12 +105,20 @@ h1 {
     padding: 12px;
     border:none;
     border-radius: 8px;
-    background:#b35809;
+    background: #8e2a10;
     color:white;
     font-size: 16px;
     font-weight: 600;
 
 }
+.logout-btn:hover{
+    background:  #b35809;
+    transform: translateY(-2px);
+}
+
+
+
+
 
 .btn {
     width: 100%;
