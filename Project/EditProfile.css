@@ -58,93 +58,49 @@ width:100%;
 padding: 12px;
 margin-top: 6px;
 border: none;
-
-
-}
-
-
-.avatar{
-width:130px;
-height:130px;
-border-radius: 50%;
-object-fit: cover;
-border : 3px solid rgb(95, 45, 9);
-margin-bottom: 15px;
-
-}
-
-.meta{
-
-
-    margin; 8px 0;
-    font-size: 15px;
-    color: #000;;
-
-}
-.meta strong{
-
-color:saddlebrown;
-
-}
-
-.profile-actions{
-
-    margin-top: 20px;
-    display:flex;
-    flex-direction: column;
-    gap:12px;
-
-}
-
-.profile-actions button{
-
-padding:12px;
-background: #8e2a10;
-border: none;
 border-radius: 8px;
-color:#fff;
-font-size: 15px;
-font-weight: 600;
-cursor: pointer;
+background: rgba(255,255,255,0.7);
+ font-size: 14px;
+ color:beige;
 }
 
+input [type="submit"],
+input [type="button"] {
 
-.profile-actions button:hover{
-
-
-    background: #b35809;
-    transform: translate(-2px);
-}
-
-.back-dashboard-container{
-    display:flex;
-    justify-content: center;
-    margin-top: 20px;
-
-}
-
-
-.back-dashboard-btn{
-
-
-
-    width:150px;
-    padding: 12px;
+    width:100%;
+    margin-top:15px;
+    padding:12px;
     border:none;
-    border-radius: 8px;
-    background:#8e2a10;
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
-
+    border-radius:25px;
+    font-size:15px;
+    font-weight:600;
 
 }
 
+input [type="submit"]: hover{
 
-.back-dashboard-btn :hover{
- background-color: #b35809;
+    background: #161616;
+}
+
+.secondary-btn{
+
+    background: transparent;
+    border:1.5px solid #8e2a10;
+    color: #f1c40f; 
+}
+.secondary-btn:{
+background-color: #b35809;
  transform: translate(-2px);
+}
 
-
-
+.err {
+    color: #8e2a10;
+    font-size: 13px;
+    margin: 4px 0;
+}
+.ok {
+    color: #8e2a10;
+    font-size: 13px;
+    margin: 4px 0;
+    text-align: center;
 }
