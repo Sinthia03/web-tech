@@ -12,8 +12,10 @@
     <h1>Edit Profile!</h1>
 
 <img src = "https://png.pngtree.com/png-vector/20190307/ourmid/pngtree-vector-edit-profile-icon-png-image_762931.jpg" id ="profile-edit" alt="profile">
-
-
+<label>Name:</label>
+<input type ="text" name ="name" id="editname" value="Sinthia">
+<p class="err" id ="nameError">
+</p>
 
     
 </body>
