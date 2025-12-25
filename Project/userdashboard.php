@@ -32,8 +32,8 @@
                 <div class="action-buttons">
                     <button class="btn">View My Profile</button>
                     <button class="btn">Book New Room</button>
-                    <button class="btn">Contact Support</button>
-                    <button class="btn">View Activity Log</button>
+                    
+                    <button class="btn">Reviews</button>
                 </div>
             </section>
             
