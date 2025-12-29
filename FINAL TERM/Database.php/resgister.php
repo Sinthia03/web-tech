@@ -1,9 +1,9 @@
 <?php
 include 'databaselab.php';
 if($_SERVER['REQUEST_METHOD'] == "POST") {
-    $username = $_POST["username"];
-    $password = $_POST ["password"];
-    $email = $_POST["email"];
+    $username =$_POST["username"];
+    $password =$_POST ["password"];
+    $email =$_POST["email"];
  
     if(empty($username) || empty($password) || empty($email)) {
         echo "All fields are required.";
