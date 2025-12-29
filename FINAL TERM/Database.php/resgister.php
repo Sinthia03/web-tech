@@ -16,7 +16,7 @@ $error="All the field must be fill_up";
 else{
 $hassPassword= password_hash($password,PASSWORD_DEFAULT);
  
-$sql= "INSERT INTO users(username,password,email) VALUES ('$username','$hassPassword','$email')";
+$sql= "INSERT INTO user(username,password,email) VALUES ('$username','$hassPassword','$email')";
 if($conn->query($sql))
 {
     $success="Registration Complete you can do the login";
