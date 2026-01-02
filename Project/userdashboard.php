@@ -31,7 +31,7 @@
                 <h2>Quick Actions</h2>
                 <div class="action-buttons">
                     <button class="btn" onclick="window.location.href='Profile.php'">View My Profile</button>
-                    <button class="btn">Book New Room</button>
+                    <button class="btn" onclick="window.location.href='BookRoom.php'">Book New Room</button>
                     
                     <button class="btn">Export Bookings</button>
                 </div>
