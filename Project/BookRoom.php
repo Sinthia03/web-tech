@@ -54,7 +54,7 @@
             <p class="price">TK 2000.00</p>
             <p><span class="badge available">Available</span></p>
             <p><strong>Features:</strong> Wi-Fi, Balcony</p>
-            <button class="btn" onclick="window.location.href='RoomBooking.php?id=101'">View Details</button>
+            <button class="btn" onclick="window.location.href='BookRoom.php?id=101'">View Details</button>
         </div>
     </div>
 
@@ -65,7 +65,7 @@
             <p class="price">TK 3500.00</p>
             <p><span class="badge booked">Booked</span></p>
             <p><strong>Features:</strong> Wi-Fi, Air Conditioning</p>
-            <button class="btn" onclick="window.location.href='RoomBooking.php?id=102'">View Details</button>
+            <button class="btn" onclick="window.location.href='BookRoom.php?id=102'">View Details</button>
         </div>
     </div>
 
