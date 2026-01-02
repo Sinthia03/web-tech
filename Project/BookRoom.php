@@ -18,7 +18,20 @@
     <h1>Book Room</h1>
 
     <form method="POST" action ="">
-  
+        <div class ="filters">
+            <select name ="type" onchange ="submitFilters">
+           <option value ="">Room Type </option>
+           <option value ="1">Single </option>
+           <option value ="2">Double </option>
+           <option value ="3">Suite </option>
+    </select>
+
+    <select name ="type" onchange ="submitFilters">
+           <option value ="">Room Type </option>
+           <option value ="1">Single </option>
+           <option value ="2">Double </option>
+           <option value ="3">Suite </option>
+    </select>
 
 
 
