@@ -73,11 +73,6 @@
 </div>
 
 
-<div class="pagination">
-    <a href="?page=1">1</a>
-    <span class="active">2</span>
-    <a href="?page=3">3</a>
-</div>
 
 
 <button class="btn secondary back-btn" onclick="window.location.href='userdashboard.php'">Back to Dashboard</button>
