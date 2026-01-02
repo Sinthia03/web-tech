@@ -41,11 +41,47 @@
             <option value="6001-10000">6001-10000</option>
         </select>
        
-        
-
-
-
+        <button type ="button" class ="btn secondary" onclick="resetFilters()">Reset </button>
+    </div>
     </form>
+
+<div class="grid">
+    
+    <div class="room-card">
+        <img src="" alt="Room 101">
+        <div class="room-card-content">
+            <h3>Room 101 — Single</h3>
+            <p class="price">TK 2000.00</p>
+            <p><span class="badge available">Available</span></p>
+            <p><strong>Features:</strong> Wi-Fi, Balcony</p>
+            <button class="btn" onclick="window.location.href='RoomBooking.php?id=101'">View Details</button>
+        </div>
+    </div>
+
+    <div class="room-card">
+        <img src="" alt="Room 102">
+        <div class="room-card-content">
+            <h3>Room 102 — Double</h3>
+            <p class="price">TK 3500.00</p>
+            <p><span class="badge booked">Booked</span></p>
+            <p><strong>Features:</strong> Wi-Fi, Air Conditioning</p>
+            <button class="btn" onclick="window.location.href='RoomBooking.php?id=102'">View Details</button>
+        </div>
+    </div>
+
+ 
+</div>
+
+
+<div class="pagination">
+    <a href="?page=1">1</a>
+    <span class="active">2</span>
+    <a href="?page=3">3</a>
+</div>
+
+
+<button class="btn secondary back-btn" onclick="window.location.href='userdashboard.php'">Back to Dashboard</button>
+   
 
     
 </body>
