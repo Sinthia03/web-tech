@@ -33,6 +33,16 @@
            <option value ="3">Balcony </option>
     </select>
 
+  <select name="price" onchange="submitFilters()">
+            <option value="">Price </option>
+            <option value="0-2000">0-2000</option>
+            <option value="2001-4000">2001-4000</option>
+            <option value="4001-6000">4001-6000</option>
+            <option value="6001-10000">6001-10000</option>
+        </select>
+       
+        
+
 
 
     </form>
