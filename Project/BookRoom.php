@@ -26,11 +26,11 @@
            <option value ="3">Suite </option>
     </select>
 
-    <select name ="type" onchange ="submitFilters">
-           <option value ="">Room Type </option>
-           <option value ="1">Single </option>
-           <option value ="2">Double </option>
-           <option value ="3">Suite </option>
+    <select name ="feature" onchange ="submitFilters">
+           <option value ="">Features </option>
+           <option value ="1">Wi-fi </option>
+           <option value ="2">Air Conditioning </option>
+           <option value ="3">Balcony </option>
     </select>
 
 
