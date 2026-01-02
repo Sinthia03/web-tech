@@ -15,7 +15,15 @@
         </script>
 </head>
 <body>
-    <>
+    <h1>Book Room</h1>
+
+    <form method="POST" action ="">
+  
+
+
+
+    </form>
+
     
 </body>
 </html>
