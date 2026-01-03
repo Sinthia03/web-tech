@@ -42,7 +42,7 @@
             <option value="6001-10000">6001-10000</option>
         </select>
        
-        <button type ="button" class ="btn secondary" onclick="resetFilters()">Reset </button>
+        
     </div>
     </form>
 
