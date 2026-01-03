@@ -16,7 +16,7 @@
          <link rel="stylesheet" href="RoomInventory.css">
 </head>
 <body>
-    <h1>Book Room</h1>
+    <h1>Room Inventory</h1>
 
     <form method="POST" action ="">
         <div class ="filters">
