@@ -13,6 +13,7 @@
             document.getElementById('filterForm').reset();submitFilters();
         }
         </script>
+         <link rel="stylesheet" href="BookRoom.css">
 </head>
 <body>
     <h1>Book Room</h1>
