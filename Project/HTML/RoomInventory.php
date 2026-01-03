@@ -13,7 +13,7 @@
             document.getElementById('filterForm').reset();submitFilters();
         }
         </script>
-         <link rel="stylesheet" href="RoomInventory.css">
+         <link rel="stylesheet" href="../CSS/RoomInventory.css">
 </head>
 <body>
     <h1>Room Inventory</h1>
