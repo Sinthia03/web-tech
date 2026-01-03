@@ -104,3 +104,8 @@ h1{
     color: #8e2a10;
     border: 2px solid #8e2a10;
 }
+
+.btn.secondary:hover{
+    background: #8e2a10;
+    color: #fff;
+}
