@@ -126,6 +126,20 @@ border: 1px solid #8e2a10;
 color: #8e2a10;
 background: rgba(255,255,255,0.2);
 
+}
+.pagination .active{
+    background: #8e2a10;
+    color: #fff;
+}
 
-
+.back-btn{
+    display: block;
+    width: max-content;
+    margin: 30px auto;
+    padding: 12px 22px;
+    font-size: 15px;
+}
+.back-btn:hover{
+    background: #8e2a10;
+    color: #fff;
 }
