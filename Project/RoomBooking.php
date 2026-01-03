@@ -16,7 +16,21 @@
 <span class ="badge available" >Available</span>
 </p>
 
-<p><strong>Features:</strong>
+<p><strong>Features:</strong>Wi-fi,Air Conditioning ,Balcony</p>
+
+<form method ="POST" action ="">
+    <label>CheckIn Date</label>
+    <input type ="date" id ="checkin_date" >
+
+     <label>Nights</label>
+    <input type ="number" id ="nights" min="1" value="1" >
+
+     <label>CheckOut Date</label>
+    <input type ="date" id ="checkout_date" >
+
+
+</form>
+
 
 
     
