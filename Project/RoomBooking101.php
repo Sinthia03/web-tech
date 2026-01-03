@@ -10,7 +10,7 @@
 
 <div class ="container">
     <h1> Room 101_Delux </h1>
-    <img src = "C:\xampp\htdocs\web tech\Project\Image\visualsofdana-T5pL6ciEn-I-unsplash.jpg" alt ="Room image">
+    <img src = "" alt ="Room image">
 <p><strong>Price Per Night : </strong> TK 3500.00</p>
 <p>Status:</strong>
 <span class ="badge available" >Available</span>
