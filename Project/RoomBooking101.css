@@ -4,6 +4,7 @@ body{
     background: rosybrown;
     padding: 20px;
     color: #fff;
+    text-align: center;
 }
 .container{
     max-width: 800px;
@@ -83,4 +84,7 @@ button:hover{
     color: #fff;
     padding: 10px 18px;
     border-radius: 8px;
+}
+.back-btn:hover{
+    background: #b35809;
 }
