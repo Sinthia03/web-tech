@@ -109,3 +109,11 @@ h1{
     background: #8e2a10;
     color: #fff;
 }
+
+.pagination {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
