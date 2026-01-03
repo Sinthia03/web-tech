@@ -61,4 +61,46 @@ h1{
     color: #000;
 }
 
-.price
+.price{
+    font-weight: 600;
+    color: #df430b;
+}
+
+.badge {
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    color:#fff ;
+    display: inline-block;
+}
+.available{
+    background: #8e2a10;
+}
+
+.booked{
+    background: #5c1a0a;
+}
+.maintenance{
+    background: #5c1a0a;
+}
+
+.btn{
+    padding: 10px 4px;
+    border: none;
+    border-radius: 8px;
+    background: #8e2a10;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.btn:hover {
+    background: #b35809;
+    transform: translate(-2px);
+}
+.btn.secondary{
+    background: transparent;
+    color: #8e2a10;
+    border: 2px solid #8e2a10;
+}
