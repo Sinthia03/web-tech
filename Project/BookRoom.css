@@ -117,3 +117,15 @@ h1{
     margin-top: 25px;
     flex-wrap: wrap;
 }
+.pagination a,
+.pagination span {
+padding: 6px 12px;
+border-radius: 6px;
+text-decoration: none;
+border: 1px solid #8e2a10;
+color: #8e2a10;
+background: rgba(255,255,255,0.2);
+
+
+
+}
