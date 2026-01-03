@@ -5,4 +5,24 @@ body{
     padding: 20px;
     color: #fff;
 }
+.container{
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: 15px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
 
+img{
+    width:100%;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+.badge{
+    padding: 4px 8px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    
+}
