@@ -29,6 +29,10 @@
     <input type ="date" id ="checkout_date" >
 
 
+<p id ="totalcost" class="total">Total:Tk 3500.00</p>
+<button type ="submit">Confirm Booking </button>
+
+
 </form>
 
 
