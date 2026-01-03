@@ -55,7 +55,7 @@
             <p class="price">TK 2000.00</p>
             <p><span class="badge available">Available</span></p>
             <p><strong>Features:</strong> Wi-Fi, Balcony</p>
-            <button class="btn" onclick="window.location.href='BookRoom.php?id=101'">View Details</button>
+            <button class="btn" onclick="window.location.href='RoomBooking101.php'">View Details</button>
         </div>
     </div>
 
