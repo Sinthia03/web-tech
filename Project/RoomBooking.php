@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Room Book</title>
     <link rel="stylesheet" href="RoomBooking.css">
 </head>
 <body>
@@ -35,6 +35,32 @@
 
 </form>
 
+<a class ="back-btn" href="RoomInventory.php"> Back</a>
+</div>
+
+<script>
+    const ROOM_PRICE = 3500;
+    function updateBooking(){
+        const night= parseInt(document.getElementById('nights').value)||0;
+        const checkin=document.getElementById('checkin_date').value;
+
+
+const total = nights * ROOM_PRICE;
+ document.getElementById('totalCost').innerText ="Total: TK " + total.toFixed(2);
+
+if (checkin && nights > 0)
+{
+    const d = new Date(checkin);
+    d.setDate(d.getDate()+nights);
+    document.getElementById('checkout_date').value= d.toISOString().split('T')[0];
+
+
+}
+    }
+document.getElementById('nights').addEventListner('change',updateBoking);
+document.getElementById('checkin_date').addEventListner('change',updateBoking);
+updateBooking();
+</script>
 
 
     
