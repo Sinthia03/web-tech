@@ -16,13 +16,17 @@
 <p class="error-msg"></p>
 
 
+<label >New Password:</label>
+<input type="password" id="newPass" name="new_password">
+<p class="error-msg"></p>
 
-
+<input type="submit" value="Update Password">Back To Dashboard</button>
 
 
 
 
 </form>    
+</div>
     
 </body>
 </html>
