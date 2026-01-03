@@ -13,7 +13,7 @@
 
 <div class ="profile-actions">
     <button  onclick="window.location.href='EditProfile.php'">Edit Profile</button>
-    <button>Update Password</button><br><br>
+    <button onclick="window.location.href='UpdatePass'">Update Password</button><br><br>
     
 </div>
 
