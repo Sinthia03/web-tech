@@ -24,5 +24,25 @@ img{
     border-radius: 5px;
     color: #fff;
     font-weight: 600;
-    
+
+}
+
+
+.available{
+    background: #8e2a10;
+}
+
+.booked{
+    background: #df430b;
+}
+
+.maintenance{
+    background: #b35809;
+    color: #fff;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    color: black;
 }
