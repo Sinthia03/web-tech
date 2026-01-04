@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>update</title>
-     <link rel="stylesheet" href="../CSS/UpdatePass.css">
+     <link rel="stylesheet" href="../CSS/UpdatePassword.css">
 </head>
 <body>
     <div class="password-card">
