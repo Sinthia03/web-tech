@@ -8,35 +8,35 @@
 </head>
 
 <body>
- <center>
-     <form method ="post" action ="Forgetpassvalidate.php">
+<div class="forgot-container">
+     <form method ="post" action ="">
     <h1>Forgot Pass ?</h1>
    <p> Enter a new password to change your password  </p>
    
  <label>New Password:</label>
-<input type ="text"  name="newpassword"   placeholder="Must be 8 character long"/>
+<input type ="password" id="newpassword" name="newpassword"   placeholder="Must be 8 character long"/>
 
 <br><br>
 <br><br>
 
 
 <label>Confirm New Password:</label>
-<input type ="text" name="confirmpassword"  />
+<input type ="password" id="confirmpassword" name="confirmpassword" placeholder="Re-type here"  />
 
 <br><br>
 <br><br>
 
-<button type ="button"  onclick="window.location.href='Login.php';">Back </button>
+<button type ="button"  onclick="window.location.href='Login.php'">Back </button>
 <button type ="submit">Submit</button>
 <br><br>
 
 
 
- 
+</div>
 
 </form>
 
-</center>
+
 
 
    

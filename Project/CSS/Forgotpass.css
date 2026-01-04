@@ -1,9 +1,15 @@
 body{
-background-color: rosybrown;
-font-family: Arial, sans-serif ;
-margin:0;
-padding:20px;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+background: rosybrown;
+font-family: 'Poppins',sans-serif;
 }
+
+.forgot-container{
+    width
+}
+
 
 h1{
     color: saddlebrown;
