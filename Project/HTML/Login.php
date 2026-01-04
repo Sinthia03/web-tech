@@ -8,6 +8,20 @@
 </head>
 <body>
 <div class ="login-box">
+    <h1>Login Now! </h1>
+    <form>
+        <p class ="error-msg"></p>
+
+       <input type ="text" placeholder="Enter Name">
+       <p class ="error-msg"></p>
+
+        <input type ="password" placeholder="Enter Password">
+       <p class ="error-msg"></p>
+
+
+       <label class ="checkbox-label">
+        <input type="checkbox">Remember me</label>
+
     
 
 
