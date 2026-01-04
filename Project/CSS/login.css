@@ -8,7 +8,7 @@ body {
     align-items: center;
 }
 
-.lohin-box{
+.login-box{
     width: 380px;
     padding: 40px;
     border-radius: 15px;
@@ -17,5 +17,32 @@ body {
     backdrop-filter: blur(10px);
     box-shadow: 0 8px 25px rgba(0,0,0,0.3);
     color: black;
-    
+
+}
+
+.login-box h1{
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+    color: saddlebrown;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+
+input[type="text"],
+input[type="password"]{
+    width: 80%;
+    padding: 14px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    background: rgba(255,255,255,0.95);
+    color: #333;
+}
+
+
+input:focus{
+    outline: none;
+    box-shadow: 0 0 8px rgba(142,42,16,0.6);
 }
