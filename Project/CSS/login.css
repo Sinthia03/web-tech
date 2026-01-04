@@ -1,5 +1,6 @@
 body {
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),rosybrown;
+    background: red !important;
+   
     font-family : 'Poppins', sans-serif;
     margin:0;
     padding: 20px;
@@ -45,4 +46,57 @@ input[type="password"]{
 input:focus{
     outline: none;
     box-shadow: 0 0 8px rgba(142,42,16,0.6);
+}
+.checkbox-label{
+
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 14px;
+    color: black;
+}
+
+.btn{
+    width: 80%;
+    padding: 14px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 30px;
+    background: #8e2a10;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.btn:hover {
+    background: #b35809;
+    transform: translateY(-2px);
+}
+
+.secondary-btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.secondary-btns input{
+    flex: 1;
+    margin: 5px;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #8e2a10;
+    color: white;
+
+}
+.secondary-btns input:hover{
+    background-color: #b35809;
+}
+
+.error-msg{
+color:#8e2a10;
+font-size: 13px;
+text-align: left;
+margin: 4px; 0
 }

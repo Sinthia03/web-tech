@@ -22,7 +22,7 @@
        <label class ="checkbox-label">
         <input type="checkbox">Remember me</label>
 
-        <div class="secondary-btn">
+        <div class="secondary-btns">
             <input type="button" onclick="window.location.href='Forgotpass.php'" value="Forgot Password?">
             <input type="button" onclick="window.location.href='Registration.php'" value="Register Now!">
 </div>
