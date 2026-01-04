@@ -22,11 +22,18 @@
        <label class ="checkbox-label">
         <input type="checkbox">Remember me</label>
 
-    
+        <div class="secondary-btn">
+            <input type="button" value="Forgot Password?">
+            <input type="button" value="Register Now!">
+</div>
+</form>
+
+
+    <input type="button" value="Back To Home" class="btn">
 
 
 
 
-
+</div>
 </body>
 </html>
