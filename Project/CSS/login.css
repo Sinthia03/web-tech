@@ -1,65 +1,21 @@
-*{
-margin:0;
-padding:o;
-box-sizing: border-box;
-font-family: Arial, sans-serif;
-
-}
-
-
 body {
-    background-color: rosybrown;
-    font-family : Arial, sans-serif;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),rosybrown;
+    font-family : 'Poppins', sans-serif;
     margin:0;
     padding: 20px;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
-h1 {
-    color: saddlebrown;
-    text-align: center;
-    font-weight: bold;
-    margin-bottom:30px ;
-}
-
-form, .card{
-    height: 250px;
-    width: 300px;
-    margin:20px auto;
-    background:white;
-    padding:15px;
+.lohin-box{
+    width: 380px;
+    padding: 40px;
     border-radius: 15px;
-    box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-}
-
-
-label, .stat-label{
-    display: inline-block;
-    width: 140px;
-    font-weight: bold;
-    vertical-align: top;
-}
-
-input[type="text"],
-input[type="password"] ,
-.stat-value {
-    width: 200px;
-    padding:8px;
-
+    text-align: center;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+    color: black;
     
-}
-input[type="submit"], .btn {
-width: 150px;
-padding:10px;
-background-color:rgb(45, 20, 175);
-color:white;
-border: none;
-border-radius: 20px;
-font-weight: bold;
-cursor: pointer;
-text-align: center;
-
-
 }
