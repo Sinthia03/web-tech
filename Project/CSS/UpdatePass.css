@@ -1,3 +1,20 @@
 body{
-    margin: ;
+    margin:0 ;
+font-family: 'Poppins',sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: rosybrown;
+}
+
+.password-card{
+    width: 100%;
+    max-width: 420px;
+    padding: 30px;
+    border-radius: 15px;
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: 0 8px 32px rgba(0,0,0,0.3);
+    color: black;
+
 }
