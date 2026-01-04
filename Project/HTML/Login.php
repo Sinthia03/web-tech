@@ -12,7 +12,7 @@
     <center>
          <h1>Login Now</h1>
          </center>
-        <form method = "post" action ="loginvalidate.php">
+        <form method = "post" action ="">
             <div>
             <label>Enter your name:</label>
    <input type ="text"  name="name" value="<?php echo $name; ?>">
