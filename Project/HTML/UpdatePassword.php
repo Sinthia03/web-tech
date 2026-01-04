@@ -23,7 +23,7 @@
 <input type="submit" value="Update Password">
 
 
-<button type ="button" class="back-btn">Back To Dashboard</button>
+<button type ="button"  onclick="window.location.href='userdashboard.php'" class="back-btn">Back To Dashboard</button>
 
 </form>    
 </div>
