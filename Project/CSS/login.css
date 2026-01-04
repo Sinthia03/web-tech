@@ -1,12 +1,27 @@
 body {
-    background: red !important;
-   
-    font-family : 'Poppins', sans-serif;
+    background:rosybrown;
+   font-family : 'Poppins', sans-serif;
     margin:0;
     padding: 20px;
     height: 100vh;
     display: flex;
     align-items: center;
+}
+
+form{
+    text-align: center;
+}
+label{
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 6px;
+    padding: 6px 10px;
+    background: rgba(255,255,255,0.15);
+    color: saddlebrown;
+    font-weight: 600;
+    border-radius: 6px;
 }
 
 .login-box{
@@ -38,14 +53,14 @@ input[type="password"]{
     border: none;
     border-radius: 10px;
     font-size: 14px;
-    background: rgba(255,255,255,0.95);
+    background: rgba(255,255,255,0.9);
     color: #333;
 }
 
 
 input:focus{
     outline: none;
-    box-shadow: 0 0 8px rgba(142,42,16,0.6);
+    box-shadow: 0 0 8px rgba(179,88,9,0.6);
 }
 .checkbox-label{
 
@@ -53,11 +68,11 @@ input:focus{
     align-items: center;
     margin: 10px 0;
     font-size: 14px;
-    color: black;
+    color: saddlebrown;
 }
 
 .btn{
-    width: 80%;
+    width: 50%;
     padding: 14px;
     margin-top: 15px;
     border: none;
@@ -88,6 +103,7 @@ input:focus{
     border: none;
     background: #8e2a10;
     color: white;
+    font-weight: 600;
 
 }
 .secondary-btns input:hover{
@@ -95,8 +111,8 @@ input:focus{
 }
 
 .error-msg{
-color:#8e2a10;
+color:#df430b;
 font-size: 13px;
-text-align: left;
-margin: 4px; 0
+text-align: center;
+margin: 4px 0; 
 }
