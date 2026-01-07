@@ -62,7 +62,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 </div>
 
-<script src="Forgotpass.js"></script>
+<script src="Forgotpassword.js"></script>
 
 </body>
 </html>
