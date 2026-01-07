@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error = 'Passwords do not match!';
     } else {
         
-        $success = '✅ Your password has been updated successfully!';
+        $success = ' Your password has been updated successfully!';
     }
 }
 ?>
