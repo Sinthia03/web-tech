@@ -1,4 +1,4 @@
-<?php require_once ('UserLoginValidate.php');?>
+<?php include('../CONTROL/UserLoginValidate.php');?>
 
 <!DOCTYPE html>
 
