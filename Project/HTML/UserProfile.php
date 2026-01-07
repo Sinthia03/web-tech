@@ -9,7 +9,7 @@
 <body>
 <dciv class =" profile-card">
 <h1>Welcome To Profile</h1>
-<img src ="https://plus.unsplash.com/premium_photo-1677252438411-9a930d7a5168?w=1000&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8dXNlciUyMHByb2ZpbGUlMjBpY29ufGVufDB8fDB8fHww" alt ="Profile Picture" class ="avatar">
+<img src = " http://localhost/Web%20tech/Project/Image/userprofile.jpg"alt ="Profile Picture" class ="avatar">
 
 <div class ="profile-actions">
     <button  onclick="window.location.href='EditProfile.php'">Edit Profile</button>
