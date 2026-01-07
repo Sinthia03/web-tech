@@ -19,13 +19,13 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Reset Password - HotelESS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    
     
     <link rel="stylesheet" href="Forgotpass.css">
 </head>
@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <div class="right-panel">
         <div class="form-box">
-            <h1>Reset Password</h1>
+            <h1>Forgot Password</h1>
             <p class="desc">Set a new secure password for your account.</p>
 
             <?php if ($success): ?>
@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="submit" class="btn" value="Update Password" />
             </form>
 
-            <a href="login.php" class="secondary-btn">⬅ Back to Login</a>
+            <a href="login.php" class="secondary-btn">Back to Login</a>
         </div>
     </div>
 </div>
