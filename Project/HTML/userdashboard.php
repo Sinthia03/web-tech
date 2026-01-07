@@ -26,7 +26,7 @@ if(!isset($_SESSION ['status'])|| $_SESSION['status']!==true){
 <section class="card">
                 <h2>Quick Actions</h2>
                 <div class="action-buttons">
-                    <button class="btn" onclick="window.location.href='Profile.php'">View My Profile</button>
+                    <button class="btn" onclick="window.location.href='UserProfile.php'">View My Profile</button>
                     <button class="btn" onclick="window.location.href='RoomInventory.php'"> Book Room</button>
                     
                     <button class="btn">See Bookings</button>
