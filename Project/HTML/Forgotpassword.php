@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="submit" class="btn" value="Update Password" />
             </form>
 
-            <a href="login.php" class="secondary-btn">Back to Login</a>
+            <a href="UserLogin.php" class="secondary-btn">Back to Login</a>
         </div>
     </div>
 </div>
