@@ -13,27 +13,17 @@ body {
     display: flex;
     width: 850px;
     height: 520px;
-    box-shadow: 0px 4px 20px rgba(0,0,0,0.1); 
+    box-shadow: 0px 4px 25px rgba(0,0,0,0.1);
     border-radius: 15px;
     overflow: hidden;
-   
     background: #ffffff;
-    border: 1px solid #eee;
+    border: 1px solid #f0f0f0;
 }
 
 .left-panel {
     flex: 1;
-   
-    background: #007bff; 
+    background: #007bff; /* Clean blue panel */
     position: relative;
-}
-
-
-.left-panel::after {
-    content: "";
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background: rgba(0,0,0,0.1);
 }
 
 .right-panel {
@@ -54,55 +44,47 @@ body {
     margin-bottom: 10px;
     font-size: 26px;
     font-family: 'Playfair Display', serif;
-    
-    color: #000000;
+    color: #000;
 }
 
 .form-box p.desc {
     font-size: 14px;
-    
-    color: #555;
+    color: #666;
     margin-bottom: 25px;
 }
 
-input[type="text"] {
+input[type="password"] {
     width: 100%;
     padding: 12px;
-    margin: 10px 0 15px;
-   
-    border: 1px solid #ccc;
+    margin: 8px 0;
+    border: 1px solid #ddd;
     border-radius: 8px;
     font-size: 14px;
-    background: #fff;
-    color: #333;
+    box-sizing: border-box;
     transition: 0.3s;
-    box-sizing: border-box; 
 }
 
-input[type="text"]:focus {
-    border: 1px solid #007bff;
+input[type="password"]:focus {
+    border-color: #007bff;
     outline: none;
-    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+    box-shadow: 0 0 5px rgba(0,123,255,0.2);
 }
 
 .btn {
     width: 100%;
     padding: 12px;
+    margin-top: 15px;
     border: none;
     border-radius: 25px;
-    
     background: #007bff;
-    color: #ffffff;
+    color: white;
     font-weight: 600;
-    font-size: 15px;
     cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
+    transition: background 0.3s;
 }
 
 .btn:hover {
-   
-    background-color: #5dade2; 
-    transform: translateY(-2px);
+    background: #5dade2; /* Light blue hover */
 }
 
 .secondary-btn {
@@ -111,44 +93,28 @@ input[type="text"]:focus {
     width: 100%;
     padding: 10px;
     border-radius: 8px;
-    
     border: 1px solid #007bff;
     background: transparent;
     color: #007bff;
     font-size: 14px;
-    text-align: center;
     text-decoration: none;
-    transition: 0.3s;
     box-sizing: border-box;
+    transition: 0.3s;
 }
 
 .secondary-btn:hover {
-    
-    background: #ebf5ff;
-    color: #0056b3;
+    background: #f0f7ff;
 }
 
 .error-msg {
     color: #e74c3c;
     font-size: 13px;
-    margin: -5px 0 10px;
     text-align: left;
+    min-height: 20px;
 }
 
 .ok {
     color: #2ecc71;
     font-weight: 600;
-    text-align: center;
     margin-bottom: 10px;
-}
-
-@media(max-width: 900px) {
-    .container {
-        flex-direction: column;
-        width: 90%;
-        height: auto;
-    }
-    .left-panel {
-        height: 150px;
-    }
 }

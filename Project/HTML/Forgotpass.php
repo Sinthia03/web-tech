@@ -3,27 +3,29 @@ session_start();
 
 $error = '';
 $success = '';
-$email = '';
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $email = trim($_POST['email'] ?? '');
+    $newPass = $_POST['new_password'] ?? '';
+    $confirmPass = $_POST['confirm_password'] ?? '';
 
-    if ($email === '' || !filter_var($email, PHP_VALIDATE_EMAIL)) {
-        $error = 'Please enter a valid email!';
+    if (strlen($newPass) < 6) {
+        $error = 'Password must be at least 6 characters long!';
+    } elseif ($newPass !== $confirmPass) {
+        $error = 'Passwords do not match!';
     } else {
-        // Logic for sending email would go here
-        $success = '✅ A reset link has been sent to your email!';
+        // Here you would typically run your SQL UPDATE query
+        $success = '✅ Your password has been updated successfully!';
     }
 }
 ?>
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Forgot Password - HotelESS</title>
+    <title>Reset Password - HotelESS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-   
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="Forgotpass.css">
 </head>
@@ -34,25 +36,28 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <div class="right-panel">
         <div class="form-box">
-            <h1>Forgot Password</h1>
-            <p class="desc">Enter your registered email to receive a reset link.</p>
+            <h1>Reset Password</h1>
+            <p class="desc">Set a new secure password for your account.</p>
 
             <?php if ($success): ?>
                 <p class="ok"><?= htmlspecialchars($success) ?></p>
             <?php endif; ?>
 
-            <form method="post" action="" onsubmit="return forgotCheck()">
-                <input type="text" id="forgotEmail" name="email"
-                       placeholder="Enter your email"
-                       value="<?= htmlspecialchars($email) ?>"
-                       onblur="checkForgotEmail()" />
+            <form method="post" action="" onsubmit="return validatePasswordForm()">
+                <input type="password" id="newPassword" name="new_password"
+                       placeholder="New Password"
+                       onkeyup="checkPasswordMatch()" />
                 
-                <p id="forgotEError" class="error-msg"><?= htmlspecialchars($error) ?></p>
+                <input type="password" id="confirmPassword" name="confirm_password"
+                       placeholder="Confirm Password"
+                       onkeyup="checkPasswordMatch()" />
+                
+                <p id="passError" class="error-msg"><?= htmlspecialchars($error) ?></p>
 
-                <input type="submit" class="btn" value="Send Reset Link" />
+                <input type="submit" class="btn" value="Update Password" />
             </form>
 
-            <a href="Login.php" class="secondary-btn">Back to Login</a>
+            <a href="login.php" class="secondary-btn">⬅ Back to Login</a>
         </div>
     </div>
 </div>
