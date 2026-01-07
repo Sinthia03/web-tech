@@ -17,15 +17,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Forgot Password - HotelESS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+   
     
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Forgotpass.css">
 </head>
 <body>
 
@@ -52,12 +52,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="submit" class="btn" value="Send Reset Link" />
             </form>
 
-            <a href="login.php" class="secondary-btn">⬅ Back to Login</a>
+            <a href="Login.php" class="secondary-btn">Back to Login</a>
         </div>
     </div>
 </div>
 
-<script src="script.js"></script>
+<script src="Forgotpass.js"></script>
 
 </body>
 </html>
