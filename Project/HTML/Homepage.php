@@ -15,8 +15,8 @@
         <p>Travel More, Spend Less</p>
  
         <div class="button-group">
-            <a href="#" class="btn btn-primary">Sign In</a>
-            <a href="#" class="btn btn-secondary">Register</a>
+            <a href="UserLogin" class="btn btn-primary">Sign In</a>
+            <a href="Registration.php" class="btn btn-secondary">Register</a>
             <a href="login.php" class="btn btn-admin">Login as Admin</a>
         </div>
     </div>
