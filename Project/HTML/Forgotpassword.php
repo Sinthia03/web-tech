@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     
     
     
-    <link rel="stylesheet" href="../CSS/Forgotpass.css">
+    <link rel="stylesheet" href="../CSS/Forgotpassword.css">
 </head>
 <body>
 
