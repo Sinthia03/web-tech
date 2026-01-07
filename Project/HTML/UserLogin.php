@@ -14,7 +14,7 @@
     <?php if (isset($_GET['success']) && $_GET['success']==='registered'):?>
         <p class ="success message">Please Login!</p>
         <?php endif;?>
-    <form id ="Login" onsubmit ="event.preventDefault(); LoginUser();">
+    <form id ="Login" onsubmit ="event.preventDefault(); UserLogin();">
 
     <?php if ($err2): ?>
             <p class="error-msg"><?= htmlspecialchars($err2) ?></p>
@@ -50,7 +50,7 @@
         </form>
         <input type="button" value="Back to Home" class="btn" onclick="window.location.href='Homepage.php'">
 </div>
-        <script src="UserLogin.js"></script>
+        <script src="../JS/UserLogin.js"></script>
 
 
 
