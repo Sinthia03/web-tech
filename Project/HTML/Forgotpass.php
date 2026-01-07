@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     } elseif ($newPass !== $confirmPass) {
         $error = 'Passwords do not match!';
     } else {
-        // Here you would typically run your SQL UPDATE query
+        
         $success = '✅ Your password has been updated successfully!';
     }
 }
@@ -22,12 +22,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <head>
     <meta charset="UTF-8">
-    <title>Reset Password - HotelESS</title>
+    <title>Forgot Pass</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
     
-    <link rel="stylesheet" href="Forgotpass.css">
+    <link rel="stylesheet" href="../CSS/Forgotpass.css">
 </head>
 <body>
 

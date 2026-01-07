@@ -1,120 +1,103 @@
 body {
-    margin: 0;
+    background: #ffffff; /* White background */
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
     height: 100vh;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    color: #000000;
+    justify-content: center;
+    color: #333;
 }
 
+/* Using .container because your PHP code uses <div class="container"> */
 .container {
-    display: flex;
-    width: 850px;
-    height: 520px;
-    box-shadow: 0px 4px 25px rgba(0,0,0,0.1);
+    width: 400px;
+    padding: 40px;
     border-radius: 15px;
-    overflow: hidden;
-    background: #ffffff;
-    border: 1px solid #f0f0f0;
-}
-
-.left-panel {
-    flex: 1;
-    background: #007bff; /* Clean blue panel */
-    position: relative;
-}
-
-.right-panel {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 30px;
-}
-
-.form-box {
-    width: 100%;
-    max-width: 320px;
     text-align: center;
+    background: #ffffff;
+    /* Soft shadow to make the white box visible on white background */
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1); 
+    border: 1px solid #eee;
 }
 
 .form-box h1 {
     margin-bottom: 10px;
     font-size: 26px;
-    font-family: 'Playfair Display', serif;
-    color: #000;
+    font-weight: 600;
+    color: #007bff; /* Blue Header */
 }
 
-.form-box p.desc {
+.desc {
     font-size: 14px;
     color: #666;
     margin-bottom: 25px;
 }
 
 input[type="password"] {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    width: 100%; /* Changed to 100% for better alignment */
+    padding: 14px;
+    margin: 10px 0;
+    border: 1px solid #ddd; /* Added border since background is white */
+    border-radius: 10px;
     font-size: 14px;
-    box-sizing: border-box;
-    transition: 0.3s;
+    background: #f9f9f9;
+    color: #333;
+    box-sizing: border-box; /* Important for padding */
 }
 
-input[type="password"]:focus {
-    border-color: #007bff;
+input:focus {
     outline: none;
-    box-shadow: 0 0 5px rgba(0,123,255,0.2);
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
 }
 
 .btn {
     width: 100%;
-    padding: 12px;
+    padding: 14px;
     margin-top: 15px;
-    border: none;
-    border-radius: 25px;
-    background: #007bff;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 30px;
+    background: #007bff; /* Blue background */
     color: white;
     font-weight: 600;
+    font-size: 16px;
     cursor: pointer;
-    transition: background 0.3s;
+    transition: all 0.3s ease;
 }
 
 .btn:hover {
-    background: #5dade2; /* Light blue hover */
+    background: #ffffff; /* White background on hover */
+    color: #007bff;      /* Blue text on hover */
+    transform: translateY(-2px);
 }
 
 .secondary-btn {
-    margin-top: 15px;
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #007bff;
-    background: transparent;
-    color: #007bff;
-    font-size: 14px;
+    display: inline-block;
+    margin-top: 20px;
     text-decoration: none;
-    box-sizing: border-box;
+    color: #007bff;
+    font-weight: 500;
+    font-size: 14px;
     transition: 0.3s;
 }
 
 .secondary-btn:hover {
-    background: #f0f7ff;
+    color: #0056b3;
+    text-decoration: underline;
 }
 
 .error-msg {
     color: #e74c3c;
     font-size: 13px;
-    text-align: left;
-    min-height: 20px;
+    text-align: center;
+    margin: 10px 0;
+    min-height: 18px; /* Prevents layout jump */
 }
 
 .ok {
     color: #2ecc71;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
