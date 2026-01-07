@@ -39,7 +39,7 @@
             <input type="checkbox" name="remember" value="1" <?= $rememberChecked ? 'checked' : '' ?>> Remember me
         </label>
 
-        <input type="submit" class="btn" value="Login" />
+        <input type="submit" class="btn" value="Login"  />
         
         <p id="loginSuccess" class="error-msg"></p>
 

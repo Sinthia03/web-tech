@@ -1,3 +1,12 @@
+<?php 
+session_start();
+/*
+if(!isset($_SESSION ['status'])|| $_SESSION['status']!==true){
+    header('location: UserLogin.php?error=badrequest');
+    exit();
+}*/
+?>
+
 <!DOCTYPE html>
 
 <head>
@@ -13,21 +22,8 @@
         <h1>Welcome Back </h1>
 
         <div class="dashboard-grid">
-            
-            <section class="card">
-                <h2>Booking Summary</h2>
-                <div class="stat-item">
-                    <span class="stat-label">Total Room Bookings</span>
-                    <span class="stat-value">12</span>
-                </div>
-                <div class="stat-item">
-                    <span class="stat-label">Upcoming Check-in</span>
-                    <span class="stat-value">Dec 28, 2025</span>
-                </div>
-                
-            </section>
-
-            <section class="card">
+    
+<section class="card">
                 <h2>Quick Actions</h2>
                 <div class="action-buttons">
                     <button class="btn" onclick="window.location.href='Profile.php'">View My Profile</button>
