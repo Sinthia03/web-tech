@@ -109,3 +109,8 @@ input:focus {
     text-align: center;
     margin: 5px 0; 
 }
+.success-msg {
+    color: #2ecc71;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
